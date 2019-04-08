@@ -28,7 +28,7 @@ public class Example5 {
         System.out.println(numbers);
 
 
-        // Reduce, literally reduces the result to a single value. 
+        // Reduce, literally reduces the result to a single value.
         int sum = numbers
                     .stream()
                     .reduce(0, (num1, num2) -> num1 + num2);
